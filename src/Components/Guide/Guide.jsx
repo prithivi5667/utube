@@ -371,7 +371,7 @@ const Guide = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.tt}
-                  href="https://github.com/prithivi5667"
+                  href="https://github.com/prithivi5667/utube"
                 >
                   YouTube-Clone
                 </a>
