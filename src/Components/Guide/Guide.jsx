@@ -360,8 +360,7 @@ const Guide = () => {
             <div className={styles.line}></div>
             <div className={styles.about}>
               <div className={styles.txt}>
-                Cloning YouTube with pure sass, Javascript and React Framework
-                2020.
+                Cloning YouTube 
               </div>
               <div className={styles.txt}>
                 Author: <span className={styles["txt--name"]}>Prithivi</span>
