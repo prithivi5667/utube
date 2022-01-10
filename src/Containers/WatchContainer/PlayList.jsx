@@ -78,7 +78,7 @@ const PlayList = memo(({ HandleQueryParams }) => {
         dispatch(fetchPlayList(playListId, ApiKey));
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    /// eslint-disable-next-line
   }, [dispatch, playListId, ApiKey]);
 
   // -------

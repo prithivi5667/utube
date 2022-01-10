@@ -137,7 +137,7 @@ const Results = () => {
     } else {
       Search(SearchValue);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line
   }, [SearchValue, FilterState]);
 
   const handleFilterClick = useCallback(() => {

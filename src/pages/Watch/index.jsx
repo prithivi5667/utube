@@ -128,7 +128,7 @@ const Watch = () => {
     // Trigger.trig is the trigger to run useEffect because we need the redux state update
     // we can't get the redux updated state inside onPlayerStateChange function
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line
   }, [Trigger.trig]);
 
   //////////////////////////////////////////////

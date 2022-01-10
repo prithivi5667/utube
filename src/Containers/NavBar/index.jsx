@@ -235,7 +235,7 @@ const NavBar = () => {
         dispatch(SetGuideModeAction(1));
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line
   }, [innerWidth]);
 
   useEffect(() => {
@@ -392,7 +392,7 @@ const NavBar = () => {
 
     // you should not put dropHandler in the useCallback dependencies array
     // because it will re-render semi-dropdowns
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line
   }, []);
 
   const HandleShowSemiDrop = useCallback((value) => {
@@ -407,7 +407,7 @@ const NavBar = () => {
     // you should not put dropHandler or semiDrop in the useCallback dependencies array
     // because it will re-render profile-drop if you click on another drop.
     // it is unnecessary
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line
   }, []);
 
   //  Handle close icons dropdown

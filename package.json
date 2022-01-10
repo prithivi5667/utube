@@ -18,6 +18,13 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.24.0",
     "classnames": "^2.3.1",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^25.3.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "jest": "^27.4.7",
     "moment": "^2.29.1",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
@@ -34,23 +41,22 @@
     "redux-thunk": "^2.4.1",
     "uuid": "^3.4.0"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-hooks"
-    ],
-    "plugins": [
-      "react-hooks",
-      "@typescript-eslint/eslint-plugin"
-    ]
-  },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.6.1",
-    "eslint": "^6.6.0",
+    "eslint": "^6.8.0",
     "eslint-loader": "^3.0.2",
-    "typescript": "^3.7.2",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "typescript": "^3.9.10",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
   "browserslist": {
     "production": [
